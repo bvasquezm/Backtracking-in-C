@@ -53,9 +53,9 @@ bool checkGoal(int x, int y, int maze[N][N])
 bool solveMaze(int maze[N][N])
 {
 	int sol[N][N] = { 	{ 0, 0, 0, 0 },
-						{ 0, 0, 0, 0 },
-						{ 0, 0, 0, 0 },
-						{ 0, 0, 0, 0 } 	};
+				{ 0, 0, 0, 0 },
+				{ 0, 0, 0, 0 },
+				{ 0, 0, 0, 0 } 	};
 	if (solveMazeUtil(maze, X0, Y0, sol) == false) {
 		printf("Solution doesn't exist\n");
 		return false;
@@ -106,9 +106,9 @@ bool solveMazeUtil(int maze[N][N], int x, int y, int sol[N][N])
 int main()
 {
 	int maze[N][N] = {	{ 0, 0, 0, 0 },
-						{ 1, 1, 1, 1 },
-						{ 0, 1, 0, 0 },
-						{ 1, 1, 1, 1 } 	};
+				{ 1, 1, 1, 1 },
+				{ 0, 1, 0, 0 },
+				{ 1, 1, 1, 1 } 	};
 	solveMaze(maze);
 	return 0;
 }
