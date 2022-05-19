@@ -1,4 +1,4 @@
-https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
+// https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 
 /* C program to solve N Queen Problem using
 backtracking */

@@ -5,6 +5,7 @@
 
 # Excutable files
 maze
+nqueen
 
 # User-specific files
 *.rsuser
